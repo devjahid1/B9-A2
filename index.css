@@ -17,6 +17,7 @@ body{
 }
 .logo-section{
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .logo-img{}
@@ -31,6 +32,7 @@ body{
 .nav-bar{}
 .nav-bar ul{
     display: flex;
+    margin-top: 42px;
 }
 .nav-bar ul li{
     list-style: none;
@@ -132,21 +134,36 @@ select, button{
 }
 .left-side-section ul li{
     width: 500px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .left-side-section > p{
-    width: 375px;
+    width: 550px;
     line-height: 35px;
 }
 .read-more{
     font-weight: 700;
 }
-/* Destination sec  */
-/* Destination sec  */
-/* Destination sec  */
-/* Destination sec  */
-/* Destination sec  */
-
+    /*Imag-Grid-destinations*/
+.desti{
+    margin-top: 50px;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.f2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.f3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
 /*Card Section*/
 .card-views{
     display: flex;
@@ -326,7 +343,7 @@ line-height: 26px;
 }
 .subcribe{
     margin-top: 30px;
-    width: 100%;
+    width: 82%;
 }
 .position{
     width: 324px;
@@ -783,6 +800,23 @@ font-size: 16px;
 .my-logo{
     margin-left: 38px;
 }
+
+.f1{
+    flex-direction: column;
+    gap: 20px;
+}
+.f2{
+
+    flex-direction: column;
+    gap: 20px;
+}
+.f3{
+
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 }
 /*Responsive Site*/
 /*Responsive Site*/
