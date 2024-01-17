@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
+
 .container{
     width: 1170px;
     margin: 0 auto;
@@ -44,6 +45,10 @@ body{
 .nav-bar ul li:first-child a{
 color: #FF5400;
 font-weight: 700;
+}
+.humbergur{
+    font-size: 30px;
+    visibility: hidden;
 }
 /*Banner-Section*/
 .banner-section{
@@ -136,117 +141,15 @@ select, button{
     font-weight: 700;
 }
 /* Destination sec  */
-.Destination {
-    text-align: center;
-    margin-top: 100px;
-}
+/* Destination sec  */
+/* Destination sec  */
+/* Destination sec  */
+/* Destination sec  */
 
-.Destination h1 {
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 24px;
-}
-.Destination p{
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px; 
-    margin-top: 24px;
-    margin: 0 auto;
-    width: 63%;
-}
-.Destination-image {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    gap: 15px;
-    margin-top: 24px;
-}
-.p1{
-    position: absolute;
-    left: 24%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps1{
-    position: relative;
-}
-.p2{
-    position: absolute;
-    left: 69%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps2{
-    position: relative;
-}
-.p3{
-    position: absolute;
-    left: 16%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps3{
-    position: relative;
-    width: 360px;
-}
-.p4{
-    position: absolute;
-    left: 46%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps4{
-    position: relative;
-    width: 480px;
-}
-.p5{
-    position: absolute;
-    left: 75%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps5{
-    position: relative;
-}
-.p6{
-    position: absolute;
-    left: 20%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps6{
-    position: relative;
-    width: 465px;
-}
-.p7{
-    position: absolute;
-    left: 64%;
-    margin-top: 9%;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-}
-.ps7{
-    position: relative;
-    width: 675px;
-}
 /*Card Section*/
+.card-views{
+    display: flex;
+}
 .choose-text h1{
     color: #131318;
     text-align: center;
@@ -297,11 +200,11 @@ border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
 }
 .card3{
-    width: 42%;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    margin: 30px auto;
+    margin: 30px 30%;
+    display: inline-block;
 }
 .discount-section-1{
     background-image: url(g2.png);
@@ -310,6 +213,15 @@ background: rgba(41, 206, 246, 0.05);
     padding-top: 35px;
 }
 .discount-icon-and-text{
+    width: 540px;
+    height: 370px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin: 0 45%;
+    padding: 20px;
+}
+.discount-icon-and-text2{
     width: 540px;
     height: 370px;
     border-radius: 16px;
@@ -415,7 +327,6 @@ line-height: 26px;
     margin-top: 30px;
     width: 82%;
 }
-.newsletter-right{}
 .position{
     width: 324px;
     height: 120px;
@@ -442,54 +353,408 @@ font-weight: 800;
 margin-top: -15px;
 margin-left: 40px;
 }
-/* footer sec  */
-footer {
-    /* width: 1440px; */
+.foot {
+    width: 1519px;
     height: 502px;
-    background: rgba(19, 19, 24, 0.05);
-    margin: 0 auto;
-    flex-direction: column;
+    background: rgba(170, 170, 170, 0.252);
     margin-top: 100px;
 }
-
 .footer-logo {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
 }
-
 .footer-des {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
-    font-family: "Mulish";
     font-size: 16px;
-    font-weight: 400;
     width: 643px;
     margin: 16px auto;
 }
-
 .footer-text {
     display: flex;
     justify-content: center;
     margin-top: 110px;
 }
-
 .social-link {
     padding: 0px 332px;
     margin-top: 33px;
 }
-
 .social-link i {
     color: black;
     padding-left: 24px;
-
 }
-
 .footer-sec hr {
     margin-top: 50px;
     border: 1px solid #dedede;
 }
-
 .copyright {
     margin: 50px 350px;
 }
+
+
+
+/*Responsive Site*/
+/*Responsive Site*/
+@media screen and (min-width:601px) and (max-width: 1205px){
+    .container {
+        width: 1170px;
+        margin: 0 5%;
+    }
+    .full-navbar-section{
+        width: 992px;
+        margin: 0 auto;
+    }
+    /*Banner-Section*/
+.banner-section{
+    background-image: url(g1.png);
+    background-repeat: no-repeat;
+    width: 992px;
+    height: 500px;
+    border-radius: 16px;
+    margin: -50px auto;
+}
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    height: 500px;
+}
+.popular-tour-section {
+    width: 992px;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+.right-section img{
+    width: 100%;
+}
+.left-side-section {
+    width: 51%;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-tour-section h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: -20px;
+}
+.left-side-section ul li {
+    width: 348px;
+    margin-top: 6px;
+}
+.why-choose-us {
+    width: 1025px;
+    margin: 0 auto;
+}
+.card1{
+    padding: 10px;
+}
+
+.discount-section-1 {
+    margin: -70px auto;
+    width: 85%;
+    background-position: center;
+    background-size: contain;
+}
+.discount-icon-and-text {
+    width: 500px;
+    margin-left: 420px;
+    height: 278px;
+    margin-top: 97px;
+}
+.discount-icon-and-text2{
+    width: 500px;
+    height: 278px;
+    margin-top: 97px;
+}
+.icon-itext{
+    margin: 0px;
+}
+.title h2 {
+    margin: 0;
+}
+.title h4 {
+    margin-top: -8px;
+}
+.book-now {
+    margin-top: -13px;
+}
+.packges{
+    margin-top: 80px;
+}
+
+.youtube-left-section p{
+    width: 93%;
+    margin-top: -11px;
+}
+.youtube-left-section h2 {
+    font-size: 26px;
+}
+.see{
+    margin-top: 20px;
+}
+.youtube-left-right-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: -63px;
+}
+.youtube-right-section{
+    margin-left: -63px;
+}
+.youtube-left-section {
+    margin-left: 101px;
+    margin-bottom: -33px;
+}
+.newsletter-right img{
+    width: 513px;
+}
+.newsletter-right{
+    width: 510px;
+    height: 450px;
+}
+.newsletter-left{
+    margin-bottom: 113px;
+}
+.position {
+    margin-left: 30%;
+}
+.foot {
+    width: 1254px;
+}
+
+}
+@media screen and (min-width:50px) and (max-width: 600px){
+
+    .container {
+        width: 375px;
+        margin: 0 20px;
+    }
+
+.humbergur{
+    font-size: 30px;
+    visibility: visible;
+    margin-top: -78px;
+    margin-left: 18%;
+}
+.nav-bar{
+    visibility: hidden;
+}
+.banner-section {
+    width: 375px;
+    height: 483px;
+    margin-top: 20px;
+}
+.main-title {
+    font-size: 22px;
+    padding-top: 30px;
+}
+.sub-title {
+    width: 304px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.input-box-section {
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+}
+input {
+    width: 162px;
+    height: 32px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+select, button {
+    width: 174px;
+    height: 39px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.full-navbar-section {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+}
+.logo-img{
+    width: 28.724px;
+height: 33.516px;
+margin-bottom: 50px;
+}
+.logo-text {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.popular-tour-section {
+    display: block;
+    margin-top: 8%;
+}
+.popular-tour-section h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+}
+.left-side-section ul li {
+    width: 335px;
+}
+.left-side-section > p {
+    width: 370px;
+    line-height: 21px;
+}
+.right-section img{
+    width: 375px;
+height: 342px;
+}
+.choose-text h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.choose-text p{
+    width: 309px;
+}
+.card-views {
+    display: block;
+    justify-content: space-between;
+    width: 335px;
+height: 289px;
+}
+.card-views p{
+    width: 280px;
+}
+.card1 {
+    margin-bottom: 3%;
+    width: 319px;
+}
+.card3 {
+    margin: 106% 0% 0% 0%;
+    display: block;
+    width: 319px;
+}
+.card2{
+    margin-bottom: 5%;
+}
+.card3 p{
+    width: 280px;
+}
+.left-side-section ul li{
+    width: 257px;
+}
+.left-side-section > p {
+    width: 257px;
+}
+.discount-section-1 {
+    background-image: url(g2.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 35px;
+    background-position: center;
+    border-radius: 10px;
+}
+.discount-icon-and-text {
+    width: 303px;
+    height: 297px;
+}
+.title h2{
+font-size: 20px;
+}
+.title p {
+    width: 306px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.title h4{
+font-size: 16px;
+}
+.discount-icon-and-text {
+    width: 81%;
+    height: 405px;
+    /* border-radius: 16px; */
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin: 23px 4%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.discount-icon-and-text2 {
+    width: 301px;
+    height: 423px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin: 0 4%;
+    padding: 20px;
+}
+.packges {
+    margin-left: 0;
+    margin-top: 20px;
+}
+.youtube-left-right-section {
+    display: block;
+}
+.youtube-left-section h2 {
+    width: 375px;
+    color: #131318;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 45px;
+}
+.youtube-left-section p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+}
+.my_video{
+    width: 375px;
+}
+.newsletter-right img {
+    width: 375px;
+    height: 450px;
+}
+.position {
+    margin-left: 10%;
+}
+.input-news {
+    width: 350px;
+}
+.subcribe {
+    margin-top: 30px;
+    width: 75%;
+}
+.foot{
+    width: 375px;
+}
+.footer-des p {
+    width: 319px;
+    margin: 0 auto;
+    padding: 0;
+}
+.social-link {
+    padding: 0px 216px;
+}
+.footer-sec hr {
+    margin-top: 50px;
+    border: 1px solid #dedede;
+    width: 293px;
+}
+.copyright {
+    margin: 29px 211px;
+    display: inline;
+}
+.left-side-section {
+    width: 375px;
+}
+.full-navbar-section {
+    display: flex;
+}
+}
+/*Responsive Site*/
+/*Responsive Site*/
