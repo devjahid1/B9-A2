@@ -135,6 +135,7 @@ select, button{
     margin-top: 20px;
 }
 .left-side-section > p{
+    width: 375px;
     line-height: 35px;
 }
 .read-more{
@@ -520,23 +521,27 @@ margin-left: 40px;
 .foot {
     width: 1254px;
 }
+.nav-bar {
+    margin-top: 42px;
+}
 
 }
 @media screen and (min-width:50px) and (max-width: 600px){
 
+
     .container {
         width: 375px;
-        margin: 0 20px;
+        margin: 0 10px;
     }
-
-.humbergur{
-    font-size: 30px;
-    visibility: visible;
-    margin-top: -78px;
-    margin-left: 18%;
-}
 .nav-bar{
+    display: none;
     visibility: hidden;
+}
+.humbergur {
+    font-size: 30px;
+    display: initial;
+    visibility: visible;
+    margin-left: 647%;
 }
 .banner-section {
     width: 375px;
@@ -644,10 +649,10 @@ height: 289px;
     width: 280px;
 }
 .left-side-section ul li{
-    width: 257px;
+    width: 340px;
 }
 .left-side-section > p {
-    width: 257px;
+    width: 375px;
 }
 .discount-section-1 {
     background-image: url(g2.png);
@@ -656,6 +661,9 @@ height: 289px;
     padding-top: 35px;
     background-position: center;
     border-radius: 10px;
+}
+.logo-section {
+    margin-top: 25px;
 }
 .discount-icon-and-text {
     width: 303px;
@@ -700,6 +708,9 @@ font-size: 16px;
 .youtube-left-right-section {
     display: block;
 }
+.youtube-left-section{
+    width: 375px;
+}
 .youtube-left-section h2 {
     width: 375px;
     color: #131318;
@@ -710,7 +721,7 @@ font-size: 16px;
 .youtube-left-section p {
     font-size: 16px;
     line-height: 24px;
-    width: 300px;
+    width: 330px;
 }
 .my_video{
     width: 375px;
@@ -730,15 +741,15 @@ font-size: 16px;
     width: 75%;
 }
 .foot{
-    width: 375px;
+    width: 397px;
 }
-.footer-des p {
-    width: 319px;
+.footer-des  {
+    width: 375px;
     margin: 0 auto;
     padding: 0;
 }
 .social-link {
-    padding: 0px 216px;
+    padding: 0px 98px;
 }
 .footer-sec hr {
     margin-top: 50px;
@@ -746,14 +757,27 @@ font-size: 16px;
     width: 293px;
 }
 .copyright {
-    margin: 29px 211px;
+    margin: 29px 100px;
     display: inline;
+}
+.logo-text {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: -19px;
 }
 .left-side-section {
     width: 375px;
 }
 .full-navbar-section {
     display: flex;
+}
+.hide{
+    display: none;
+    visibility: hidden;
+}
+.my-logo{
+    margin-left: 38px;
 }
 }
 /*Responsive Site*/
